@@ -1,8 +1,8 @@
 # Iris Classification with Scikit-Learn's K-Means Implementation
 
-This is intended to be an example data analysis project contained within a Jupyter notebook. It is built from the standard [Fred Hutch template](https://github.com/FredHutch/wiki-templates/tree/master/DataAnalysis-Python-Template), and follows the [coding standards](https://sciwiki.fredhutch.org/scicomputing/software_standards/) prescribed by Fred Hutch.
+This is an example data analysis project written in Python and contained within a Jupyter notebook. It is built from the standard [Fred Hutch template](https://github.com/FredHutch/wiki-templates/tree/master/DataAnalysis-Python-Template), and follows the [coding standards](https://sciwiki.fredhutch.org/scicomputing/software_standards/) prescribed by Fred Hutch.
 
-Data and additional docs are provided via URL and not saved to the project directory. For your own purposes, we recommend using permanent web links or saving data in a local or back-up location, as results can be impacted by broken or updated links.
+Data and additional documentation are provided via URL and not saved to the project directory. For your own purposes, we recommend using permanent web links or saving data in a local or back-up location, as results can be impacted by broken or updated links.
 
 ## Project Background
 
@@ -28,6 +28,6 @@ The entire data analysis project is contained within a [Jupyter notebook](Scikit
 1. **Import Libraries:** includes the import statements and Jupyter notebook settings required for our analysis.
 1. **Read Data:** uses pandas and urllib for fast data reading from the web.
 1. **Process Data:** converts the pandas dataframe to a numpy array and uses numpy array slicing to efficiently prep data for algorithm.
-1. **Fit K-Means:** runs the scikit-learn algorithm to cluster data based on training set valeus.
+1. **Fit K-Means:** runs the scikit-learn algorithm to cluster data based on training set values.
 1. **Plot Results:** uses color mapping and scatter plots in matplotlib to visualize modeled versus true classifications.
 1. **Interactive Parameter Tuning:** provides a basic introduction to ipywidgets to show the impact of different parameter choices. (In this case, the parameter being tuned is the number of clusters to fit with our model).
