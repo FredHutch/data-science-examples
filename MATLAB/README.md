@@ -1,6 +1,9 @@
 ## MATLAB Examples
 
-Matlab example scripts and setup files.
+Welcome to the wiki-code-examples for Matlab. Each directrory contains
+an example Matlab example with intructions to run. The top level contains
+some zip files that were used for a Matlab seminar on Parallel jobs using
+the Hutch's cluster.
 
 #### Cluster Integration
 Matlab Parallel Computing Toolbox lets you run jobs on a cluster. To start
