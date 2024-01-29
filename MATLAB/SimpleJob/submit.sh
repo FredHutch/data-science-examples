@@ -4,8 +4,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 
-source /app/Lmod/lmod/lmod/init/bash
-module load MATLAB/2019a
+source /app/lmod/lmod/init/profile
+module load MATLAB/2022B
 
 #Other examples from web
 matlab -nodisplay -nosplash -nodesktop -nojvm -r "prog $1"
